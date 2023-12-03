@@ -1,5 +1,6 @@
 package com.scs.entity;
 
+<<<<<<< HEAD
 import java.util.Vector;
 
 public class Commodity {
@@ -71,4 +72,7 @@ public class Commodity {
         vo.add(this.Co_InPrice);
         return vo;
     }
+=======
+public class Commodity {
+>>>>>>> origin/master
 }
