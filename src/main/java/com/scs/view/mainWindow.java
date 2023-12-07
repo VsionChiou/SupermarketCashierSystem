@@ -55,8 +55,6 @@ public class mainWindow extends JFrame implements ActionListener{
 
         //初始化jsp JScrollPane
         jsp=new JScrollPane(jt);
-//        jsp.setPreferredScrollableViewportSize(new Dimension(100,100));
-//        jsp.setRowHeight(50);
         center.setBounds(200,250,100,150);
 
 
@@ -79,7 +77,13 @@ public class mainWindow extends JFrame implements ActionListener{
         this.add(south,"South");
 
         this.setBounds(250,100,1500,800);
-
+        /*GraphicsDevice device = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
+        if (device.isFullScreenSupported()) {
+            frame.dispose();
+            frame.setUndecorated(true);
+            device.setFullScreenWindow(frame);
+            frame.setVisible(true);
+        }*/
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
         jt.setFillsViewportHeight(true);

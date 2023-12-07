@@ -1,21 +1,21 @@
 package com.scs.entity;
 
-<<<<<<< HEAD
 import java.util.Vector;
 
 public class Commodity {
-    private String Co_Name,Co_Price,Co_InPrice,Co_BarCode,Co_Date,Shelf_Life;
+    private String Co_Name, Co_Price, Co_InPrice, Co_BarCode, Co_Date, Shelf_Life;
     private int Co_Surplus;
 
-    public void setCo_Name(String  Co_Name) {
+    public void setCo_Name(String Co_Name) {
         this.Co_Name = Co_Name;
     }
 
     public void setCo_Price(String Co_Price) {
-        this. Co_Price = Co_Price;
+        this.Co_Price = Co_Price;
     }
+
     public void setCo_InPrice(String Co_InPrice) {
-        this. Co_InPrice = Co_InPrice;
+        this.Co_InPrice = Co_InPrice;
     }
 
     public void setCo_BarCode(String Co_BarCode) {
@@ -34,13 +34,14 @@ public class Commodity {
         this.Co_Surplus = Co_Surplus;
     }
 
-    public String  getCo_Name() {
+    public String getCo_Name() {
         return this.Co_Name;
     }
 
     public String getCo_Price() {
         return this.Co_Price;
     }
+
     public String getCo_InPrice() {
         return this.Co_InPrice;
     }
@@ -61,7 +62,7 @@ public class Commodity {
         return this.Co_Surplus;
     }
 
-    public Vector<Object> getAllData(){
+    public Vector<Object> getAllData() {
         Vector<Object> vo = new Vector<>();
         vo.add(this.Co_Name);
         vo.add(this.Co_Price);
@@ -72,7 +73,4 @@ public class Commodity {
         vo.add(this.Co_InPrice);
         return vo;
     }
-=======
-public class Commodity {
->>>>>>> origin/master
 }
