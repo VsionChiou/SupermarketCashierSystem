@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c08bb6c-e357-47a7-ba7b-a4a267fd3803" name="Changes" comment="merge2">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/RPC.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/entity/Commodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/entity/Commodity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/view/mainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/view/mainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/entity/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/entity/Commodity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scs/view/mainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/view/mainWindow.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Object/Java/SupermarketCashierSystem/src/main/java/com/scs/utils",
+    "last_opened_file_path": "E:/Object/Java/SupermarketCashierSystem/src/main/resources",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -61,11 +55,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\resources" />
       <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\java\com\scs\utils" />
       <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\java\com\scs\view" />
       <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\java\com\scs\service" />
       <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\java\com\scs\entity" />
-      <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\java\com\scs\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Object\Java\SupermarketCashierSystem\src\main\resources\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,19 +75,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SupermarketCashierSystem" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SupermarketCashierSystem" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +100,7 @@
       <workItem from="1701597304477" duration="8531000" />
       <workItem from="1701948017065" duration="1409000" />
       <workItem from="1701949761801" duration="402000" />
+      <workItem from="1701950169588" duration="6859000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1701599308811</created>
@@ -138,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701600746005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="merge2">
+      <created>1701950235177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701950235177</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,16 +152,5 @@
     <MESSAGE value="merge" />
     <MESSAGE value="merge2" />
     <option name="LAST_COMMIT_MESSAGE" value="merge2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/scs/view/mainWindow.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
